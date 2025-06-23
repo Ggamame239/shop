@@ -52,11 +52,12 @@ main {
 }
 
 .cart {
-  margin-top: 40px;
-  background: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  display: none; /* เริ่มต้นซ่อนตะกร้า */
+  background: var(--card-bg);
+  color: var(--text);
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 8px;
+  transition: background 0.3s, color 0.3s;
 }
 
 .cart li {
